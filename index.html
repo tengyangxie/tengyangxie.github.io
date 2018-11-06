@@ -1,48 +1,79 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 2.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+<!-- <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> -->
 <html>
 <head>
-<title>Home</title>
+	<meta charset="utf-8">
+	<title>
+      Tengyang Xie
+    </title>
+	<!-- <meta http-equiv="content-type" content="text/html; charset=utf-8" /> -->
+	<!-- <meta name="description" content="Your description goes here" /> -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link rel="stylesheet" type="text/css" href="basic-profile.css" title="Basic Profile" media="all" />
 </head>
-<meta name="Generator" content="Serif WebPlus X6 (14.0.0.020)">
-<meta name="viewport" content="width=987">
-<style type="text/css">
-body{margin:0;padding:0;}
-.Body-C
-{
-    font-family:"Times New Roman", serif; font-weight:700; font-size:22.0px; line-height:1.16em;
-}
-.Body-C-C0
-{
-    font-family:"Times New Roman", serif; font-size:21.0px; line-height:1.14em;
-}
-.Body-C-C1
-{
-    font-family:"Times New Roman", serif; font-weight:700; font-size:24.0px; line-height:1.13em;
-}
-</style>
-<link rel="stylesheet" href="wpscripts/wpstyles.css" type="text/css"></head>
 
-<body text="#000000" style="background:#ffffff; height:1000px;">
-<div style="background-color:transparent;margin-left:auto;margin-right:auto;position:relative;width:987px;height:1000px;">
-<div style="position:absolute;left:72px;top:45px;width:869px;height:898px;overflow:hidden;">
+<body>
+<div id="wrap">
+	<div id="sidebar">
+		<a href="index.html"><img src="images/txie.jpg" width="200" height="200" alt="Sample logotype" /></a>
+<!-- 		<h1><a href="index.html">Basic Profile</a></h1>
+		<p class="slogan">everyone has a story to tell</p> -->
+		
+		<ul>
+			<li><a href="#publications">Publications</a><br /></li>
+			<!-- <li><a href="#projects">Projects</a><br /></li> -->
+			<li><a href="#teaching">Teaching</a><br /></li>
+			<li><a href="https://tengyangxie.github.io/CV/TengyangXie_CV.pdf">CV</a><br /></li>
+			<!-- <li><a href="#">Code</a><br /></li> -->
+		</ul>
+	<strong>Contact</strong>
+	<p>E-mail: <a href="mailto:txie@cs.umass.edu">txie (at) cs.umass.edu</a></p>
+	</div>
 
-<h1>Tengyang Xie</h1>
+	<div id="content">
+		<h1>Tengyang Xie</h1>
+		<p>Hi! I'm a Ph.D. student in <a href="https://www.cics.umass.edu">Computer Science</a> at <a href="https://www.umass.edu">UMass Amherst</a>, working with <a href="https://people.cs.umass.edu/~miklau/">Gerome Miklau</a> and <a href="https://people.cs.umass.edu/~pthomas/">Philip Thomas</a>. My research interests lie broadly in the topics of machine learning, optimization, and statistics, such as reinforcement learning, nonconvex optimization, differential privacy. My recent research includes risk-sensitive reinforcement learning, statistical foundation of off-policy reinforcement learning, and fairness. </p>
 
-<!-- <p class="Wp-Body-P"><span class="Body-C-C0"><br></span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0">&nbsp;&nbsp;&nbsp;&nbsp; Hi, I am a Phd student in the Computer Science at UMass Amherst. </span></p> -->
-<p class="Wp-Body-P"><span class="Body-C-C0"><br></span></p>
+		<p>I am delighted to complement my research with industrial experiences. I spent a wonderful summer working as a research intern at Amazon AI Palo Alto in 2018, with <a href="https://www.cs.ucsb.edu/~yuxiangw/">Yu-Xiang Wang</a> and <a href="http://yma.io/">Yifei Ma</a>.</p>
 
-<p class="Wp-Body-P"><span class="Body-C-C1">Thanks for visiting my homepage. This site is currently under construction. Check back soon for updates!</span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0"><br></span></p>
+		<p>Prior to UMass, I was an undergrad in <a href="http://en.physics.ustc.edu.cn/">Physics</a> at <a href="http://en.ustc.edu.cn/">University of Science and Technology of China</a>.</p>
+		
+		<h2><a id="publications">Publications</a></h2>
+		<ul>
+  			<li><a href="https://tengyangxie.github.io/papers/xie2018nips.pdf">A Block Coordinate Ascent Algorithm for Mean-Variance Optimization.</a>
+  			<br><strong>Tengyang Xie</strong>*, Bo Liu*, Yangyang Xu, Mohammad Ghavamzadeh, Yinlam Chow, Daoming Lyu, Daesub Yoon, 2018</br>
+  			<em>32nd Conference on Neural Information Processing Systems</em> (<strong>NIPS 2018</strong>).</li>
+		</ul>
+		<ul>
+  			<li><a href="https://tengyangxie.github.io/papers/xie2018draft_b.pdf">Marginalized Off-Policy Evaluation for Reinforcement Learning.</a>
+  			<br><strong>Tengyang Xie</strong>, Yu-Xiang Wang, Yifei Ma, 2018</li>
+  			Submitted.
+		</ul>
+		<ul>
+  			<li><a href="https://tengyangxie.github.io/papers/xie2018draft_a.pdf">Privacy Preserving Off-policy Evaluation.</a>
+  			<br><strong>Tengyang Xie</strong>, Philip S. Thomas, Gerome Miklau, 2018</br>
+  			Submitted.
+		</ul>
+		<p> (* indicate equal contribution.) </p>
+		
+		<h2><a id="teaching">Teaching</a></h2>
+		
+		<ul>
+  			<li>TA.> CS590M. <a href="https://sites.google.com/site/cs590m/">Introduction to Simulation</a>. Spring 2018
+  			<li>TA.> CS119. Introduction to Programming with Python. Fall 2017
+		</ul>
 
-<p class="Wp-Body-P"><span class="Body-C-C1">Personal: </span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0">&nbsp;&nbsp;&nbsp;&nbsp;My <a href="https://tengyangxie.github.io/CV/TengyangXie_CV.pdf">CV</a></a></span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0"><br></span></p>
-<p class="Wp-Body-P"><span class="Body-C-C1">Contact: </span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0">&nbsp;&nbsp;&nbsp;&nbsp;+1-(413)-120-1588</span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0">&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:txie@cs.umass.edu">txie AT cs.umass.edu</a></span></p>
-<p class="Wp-Body-P"><span class="Body-C-C0">&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:tengyangx@gmail.com">tengyangx AT gmail.com</a></span></p>
-</div>
+<!-- 		<h2><a id="academic_service">Academic Service</a></h2>
+
+		<ul><li>Conference Reviewer: ICML 2019, AAAI 2019</ul> -->
+
+
+
+		<p class="credits">&copy; 2018 Tengyang Xie<br />
+		Template from <a href="http://andreasviklund.com/">Andreas Viklund</a></a></p>
+	</div>
 </div>
 </body>
 </html>
