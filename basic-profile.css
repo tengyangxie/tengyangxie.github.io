@@ -6,8 +6,11 @@ For more information, see http://andreasviklund.com/templates/basic-profile/
 *{margin:0; padding:0;}
 body {background:#fff url(background.jpg) top center no-repeat; color:#303030; font:95% Open Sans,Arial,Helvetica,sans-serif; line-height:1.7em;}
 /*a {color:#000; text-decoration:none;}*/
-a {color:#2000C2; text-decoration:none;}
+/* a:link {color:#2000C2; text-decoration:none;} */
+a:link {color:rgb(26, 13, 171); text-decoration:none;}
 a:hover {text-decoration:underline;}
+a:active {color:#000000; text-decoration:none;}
+a:visited {color:rgb(102, 0, 153);text-decoration:none;}
 p,ul,ol,dl {margin:0 0 30px 0;}
 
 /*h1 {color:#000; font-size:3.2em; line-height:1.1em; letter-spacing:-3px; margin:20px 0 0 0;}
